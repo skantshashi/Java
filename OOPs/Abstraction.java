@@ -6,7 +6,7 @@ abstract class Animal {
     Animal() {
         System.out.println("You are about to create an Animal.");
     }
- }
+ }// Abstract class or simple blue print of a object
   
  class Horse extends Animal {
     Horse() {
