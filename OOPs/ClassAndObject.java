@@ -8,7 +8,7 @@ class Student{
         System.out.println("constructor is called when object is instantiated ");
     }// does not called when object is initiated with the values 
     Student(String name, int age){
-       this.name=name;
+       this.name=name;// this says that this.name assign the values of attributes of class
        this.age=age;
     }
 }
