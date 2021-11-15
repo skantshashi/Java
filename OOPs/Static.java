@@ -1,5 +1,5 @@
 class Student2 {
-    static String school;
+    static String school;//sharable memory for all the objects
     String name;   
  }
   
