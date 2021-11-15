@@ -4,11 +4,11 @@ class Student{
     public void info(){
         System.out.println(this.name+" "+this.age);
     }
-    Student(){
+    Student(){//default constructor
 
     }
        
-    Student(Student s2){
+    Student(Student s2){//copy const.
        this.name=s2.name;
        this.age=s2.age;
     }
