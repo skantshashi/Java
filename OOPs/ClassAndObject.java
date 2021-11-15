@@ -14,7 +14,7 @@ class Student{
 }
 public class ClassAndObject {
     public static void main(String[] args) {
-        Student s1=new Student();
+        Student s1=new Student();// object is created in heap memory
         s1.name="shashi";
         s1.age=23;
         s1.info();
