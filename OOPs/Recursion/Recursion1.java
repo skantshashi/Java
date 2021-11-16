@@ -13,7 +13,7 @@ public class Recursion1{
         System.out.println(a);
         System.out.println(b);
         int n=10;
-        printFib(a,b,n-2);
+        printFib(a,b,n-2);// Bcz first two no is allready printed
 
     }
 }
