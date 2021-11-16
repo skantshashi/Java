@@ -12,8 +12,8 @@ public class Recursion1{
         int a=0,b=1;
         System.out.println(a);
         System.out.println(b);
-        int n=10;
-        printFib(a,b,n-2);// Bcz first two no is allready printed
+        int n=20;
+        printFib(a,b,n-2);//n-2 Bcz first two no is allready printed
 
     }
 }
