@@ -3,7 +3,7 @@ public class Recursion1{
     public static int printFib(int a,int b, int n){
         if(n==0){
             return 0;
-        }
+        }// Base condition
         int c=a+b;
         System.out.println(c);
         return printFib(b, c, n-1);
