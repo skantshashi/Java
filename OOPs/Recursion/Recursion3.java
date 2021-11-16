@@ -8,9 +8,11 @@ public class Recursion3 {
         if(x==0){
             return 0;
         }
+        //if n is even
         if(n%2==0){
             return pow(x,n/2)*pow(x, n/2);
         }
+        // if n is odd
         else{
             return pow(x,n/2)*pow(x, n/2)*x;
         }
