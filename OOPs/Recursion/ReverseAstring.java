@@ -1,5 +1,5 @@
 import java.util.*;
-
+// reverse string using recursion 
 public class ReverseAstring {
     public static void revStr(String str, int indx){
         if(indx==0){
@@ -10,7 +10,7 @@ public class ReverseAstring {
         revStr(str, indx-1);
     }
     public static void main(String[] args) {
-        String str="abcd";
+        String str="abcd jfas jdlka";
         revStr(str,str.length()-1);
     }
 }
