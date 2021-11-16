@@ -6,7 +6,7 @@ public class Recursion1{
         }// Base condition
         int c=a+b;
         System.out.println(c);
-        return printFib(b, c, n-1);
+        return printFib(b, c, n-1);// Recursive call
     }
     public static void main(String[] args) {
         int a=0,b=1;
