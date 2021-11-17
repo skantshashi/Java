@@ -1,14 +1,23 @@
 import java.util.*;
 public class temp {
+   // public static void sum=0;
+    public static int palinDrom(int n){
+        int sum=0,r;
+        while(n>0){
+            r=n%10;
+            sum=sum*10+r;
+            n=n/10;
+        }
+        return sum;
+    }
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.print("enter your string : ");
-        String str=sc.nextLine();
-        int len=str.length()-1;
-        System.out.print(" rev string :");
-        while(len>=0){
-            System.out.print(str.charAt(len));
-            len--;
+        int n=191;
+        int temp=n;
+        int b=palinDrom(n);
+        if(b==temp){
+            System.err.println("palindrome");
+        }else{
+            System.out.println("not palindrome");
         }
     }
 }
