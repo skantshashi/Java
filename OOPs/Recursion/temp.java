@@ -5,8 +5,9 @@ public class temp {
         arr[0]=0;
         arr[1]=1;
         for(int j=2;j<n;j++){
-            
+
             arr[j]=arr[j-1]+arr[j-2];
+            System.out.print(arr[j]+" ");
         }
         return arr[n-1];
     }
