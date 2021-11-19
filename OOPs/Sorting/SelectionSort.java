@@ -1,7 +1,7 @@
 public class SelectionSort {
     public static void main(String[] args) {
         int a[]={9,8,0,5,6,3,2};
-        // Selection sort 
+        // Selection sort means one itteration one swap
         for(int i=0;i<a.length-1;i++){
             int smallest=i;
             for(int j=i+1;j<a.length;j++){
