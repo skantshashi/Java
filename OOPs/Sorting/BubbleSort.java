@@ -1,7 +1,7 @@
 public class BubbleSort {
     public static void main(String[] args) {
         int A[]={7,8,1,3,2,8,7,9,0,2};
-        //bubble sort 
+        //bubble sort means one pass n-1 swap needed
         for(int i=0;i<A.length-1;i++){
             for(int j=0;j<A.length-1-i;j++){//-i because last index was sorted
               if(A[j]>A[j+1]){
