@@ -3,7 +3,7 @@ public class InsertionSort {
         int a[]={9,8,6,4,5,2};
         for(int i=1;i<a.length;i++){
             int j=i-1;//sorted array index
-            int current=a[i];
+            int current=a[i];//unsortes aray element
             while(j>=0 && current<a[j]){
                 a[j+1]=a[j];
                 j--;
